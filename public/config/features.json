@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-11-15T10:45:00Z",
+  "tierPolicy": "all_free",
+  "features": {
+    "autoSubtitles": true,
+    "wordByWordCaptions": true,
+    "rollingCaptions": true,
+    "puppetStudio": false,
+    "video3dDiorama": true,
+    "offlineVoiceCast": true,
+    "topicBoardPlanning": true,
+    "experimentalTimeline": false
+  },
+  "announcements": {
+    "latestVersion": "1.0.0",
+    "releaseDate": "2026-11-15",
+    "downloadUrl": "https://github.com/subraatakumar/mega-stage/releases/latest",
+    "notice": "MegaStage v1.0.0 is officially released! 100% Free & Local Desktop Studio."
+  }
+}
