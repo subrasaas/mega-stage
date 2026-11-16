@@ -82,7 +82,15 @@ export default function HomePage() {
               <span className="dot dot-yellow"></span>
               <span className="dot dot-green"></span>
             </div>
-            <span className="preview-title">MegaStage Video Studio — Local Desktop Workspace</span>
+            <span className="preview-title">MegaStage 3D Studio & Video Workspace</span>
+          </div>
+
+          <div className="preview-hero-stage">
+            <img 
+              src="/images/stage-studio-hero.jpg" 
+              alt="MegaStage 3D Studio Stage" 
+              className="preview-stage-img"
+            />
           </div>
 
           <div className="preview-body">

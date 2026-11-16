@@ -25,10 +25,11 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <nav className="navbar">
-          <div className="nav-brand">
-            <span>🎬 MegaStage</span>
+          <a href="/" className="nav-brand">
+            <img src="/logo.png" alt="MegaStage Logo" width={32} height={32} className="nav-logo-img" />
+            <span>MegaStage</span>
             <span className="brand-badge">v1.0.0 Free</span>
-          </div>
+          </a>
           <div className="nav-links">
             <a href="#features" className="nav-link">Features</a>
             <a href="#subtitles" className="nav-link">Subtitles</a>
