@@ -22,8 +22,9 @@ Guidelines and architectural contracts for AI coding assistants working in the *
 2. **Remote Feature Flags (`public/config/features.json`):**
    * Acts as the remote configuration source for the desktop app (`https://megastage.subraspaceai.com/config/features.json`).
    * Allows toggling unreleased/experimental features on or off without forcing users to update desktop builds.
-3. **Admin Control Dashboard (`/admin`):**
-   * Client-side admin interface to inspect, toggle, and generate updated `features.json` configurations.
+3. **Design System & UI Theme (Neumorphism / Soft UI):**
+   * The visual language uses **Dark Neumorphism (Soft UI)**: dual-tone shadows with embossed (raised) elements for cards/buttons (`box-shadow: 8px 8px 18px ... -6px -6px 14px ...`) and debossed (inset) cavities for badges, pills, and input wells (`box-shadow: inset 4px 4px 10px ...`).
+   * Color tokens: Obsidian canvas (`#0e121a`), elevated slate cards (`#151b28`), and cyan accent highlights (`#35d9e6`).
 4. **Documentation & Tutorials (`/tutorials`):**
    * Web-accessible mirrors of guides from `mega-stage/docs/tutorials/`.
 

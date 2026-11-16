@@ -33,8 +33,8 @@ export default function RootLayout({
             <a href="#features" className="nav-link">Features</a>
             <a href="#subtitles" className="nav-link">Subtitles</a>
             <a href="#comparison" className="nav-link">Comparison</a>
-            <a href="https://github.com/subraatakumar/mega-stage" target="_blank" rel="noopener noreferrer" className="nav-link">GitHub</a>
-            <a href="https://github.com/subraatakumar/mega-stage/releases/latest" className="nav-cta">
+            <a href="https://github.com/subrasaas/mega-stage" target="_blank" rel="noopener noreferrer" className="nav-link">GitHub</a>
+            <a href="https://github.com/subrasaas/mega-stage/releases/latest" className="nav-cta">
               Download App
             </a>
           </div>
@@ -45,7 +45,7 @@ export default function RootLayout({
         <footer className="footer">
           <p>© {new Date().getFullYear()} MegaStage Studio. 100% Free & Open Source Local Video Editor.</p>
           <p style={{ marginTop: '8px' }}>
-            Built for creators with zero monthly subscriptions. <a href="/admin">Admin Control Plane</a>
+            Built for creators with zero monthly subscriptions. 100% Private & Local on Apple Silicon, Windows & Linux.
           </p>
         </footer>
       </body>

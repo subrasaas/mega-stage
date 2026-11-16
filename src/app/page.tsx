@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 export default function HomePage() {
   const [os, setOs] = useState<'mac' | 'windows' | 'linux'>('mac');
   const [downloadUrl, setDownloadUrl] = useState<string>(
-    'https://github.com/subraatakumar/mega-stage/releases/latest'
+    'https://github.com/subrasaas/mega-stage/releases/latest'
   );
 
   useEffect(() => {
@@ -13,13 +13,13 @@ export default function HomePage() {
       const userAgent = window.navigator.userAgent.toLowerCase();
       if (userAgent.includes('win')) {
         setOs('windows');
-        setDownloadUrl('https://github.com/subraatakumar/mega-stage/releases/latest');
+        setDownloadUrl('https://github.com/subrasaas/mega-stage/releases/latest');
       } else if (userAgent.includes('linux')) {
         setOs('linux');
-        setDownloadUrl('https://github.com/subraatakumar/mega-stage/releases/latest');
+        setDownloadUrl('https://github.com/subrasaas/mega-stage/releases/latest');
       } else {
         setOs('mac');
-        setDownloadUrl('https://github.com/subraatakumar/mega-stage/releases/latest');
+        setDownloadUrl('https://github.com/subrasaas/mega-stage/releases/latest');
       }
     }
   }, []);
@@ -58,15 +58,15 @@ export default function HomePage() {
 
           <div className="platform-links">
             <span>Also available for:</span>
-            <a href="https://github.com/subraatakumar/mega-stage/releases/latest" className="platform-link">
+            <a href="https://github.com/subrasaas/mega-stage/releases/latest" className="platform-link">
               macOS (.dmg)
             </a>
             •
-            <a href="https://github.com/subraatakumar/mega-stage/releases/latest" className="platform-link">
+            <a href="https://github.com/subrasaas/mega-stage/releases/latest" className="platform-link">
               Windows (.exe)
             </a>
             •
-            <a href="https://github.com/subraatakumar/mega-stage/releases/latest" className="platform-link">
+            <a href="https://github.com/subrasaas/mega-stage/releases/latest" className="platform-link">
               Universal (.zip)
             </a>
           </div>
