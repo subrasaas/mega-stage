@@ -1,158 +1,110 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/subrasaas/mega-stage/main/public/favicon.ico" alt="MegaStage Logo" width="80" height="80" style="border-radius: 16px;" />
+  <img src="https://raw.githubusercontent.com/subrasaas/mega-stage/main/public/logo.png" alt="MegaStage Logo" width="100" height="100" style="border-radius: 20px;" />
 </p>
 
-<h1 align="center">MegaStage Web Portal & Release Hub</h1>
+<h1 align="center">🎬 MegaStage</h1>
 
 <p align="center">
-  <strong>The 100% Free & Local AI Video Editor for Apple Silicon, Windows, and Linux.</strong><br>
-  Official portal, download hub, and remote feature configuration plane hosted at <a href="https://megastage.subraspaceai.com"><strong>megastage.subraspaceai.com</strong></a>.
+  <strong>100% Free & Local AI Desktop Video Studio for macOS (Apple Silicon), Windows & Linux</strong><br>
+  Offline Neural Speech-to-Text • Neural Voice Cast • 3D Stage Diorama Preview • Multi-Track Video Timeline
 </p>
 
 <p align="center">
-  <a href="https://github.com/subrasaas/mega-stage/actions"><img src="https://img.shields.io/github/actions/workflow/status/subrasaas/mega-stage/deploy.yml?branch=main&label=Deploy%20Portal&style=flat-square" alt="GitHub Pages Deployment"></a>
-  <a href="https://github.com/subrasaas/mega-stage/releases"><img src="https://img.shields.io/github/v/release/subrasaas/mega-stage?style=flat-square&color=35d9e6" alt="Latest Release"></a>
-  <a href="https://github.com/subrasaas/mega-stage/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-6ecfa5?style=flat-square" alt="License"></a>
-  <a href="https://megastage.subraspaceai.com"><img src="https://img.shields.io/badge/domain-megastage.subraspaceai.com-f27e66?style=flat-square" alt="Live Domain"></a>
+  <a href="https://github.com/subrasaas/mega-stage/releases"><img src="https://img.shields.io/github/v/release/subrasaas/mega-stage?style=for-the-badge&color=35d9e6&label=Download%20v1.0.0" alt="Latest Release"></a>
+  <a href="https://megastage.subraspaceai.com"><img src="https://img.shields.io/badge/Website-megastage.subraspaceai.com-f27e66?style=for-the-badge" alt="Official Website"></a>
+  <a href="https://github.com/subrasaas/mega-stage/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-6ecfa5?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/subrasaas/mega-stage/actions"><img src="https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-blue?style=for-the-badge" alt="Platforms"></a>
 </p>
 
 ---
 
-## 🌟 Overview
+## 🌟 What is MegaStage?
 
-**MegaStage** is a next-generation desktop video editor engineered for creators who demand **complete privacy, zero monthly subscription bills, and lightning-fast local performance**. 
+**MegaStage** is an open, private-by-design desktop video editor built for creators, educators, and indie makers. 
 
-This repository (`subrasaas/mega-stage`) hosts the **official public web portal**, documentation, and release distribution infrastructure for the desktop editor.
+Unlike traditional cloud video platforms that charge recurring monthly fees or send your private video drafts, audio, and scripts to third-party servers, **MegaStage runs entirely on your local machine**:
 
-### Key Pillars
-- **Zero Paid Cloud APIs:** Runs AI models (Faster-Whisper STT, Kokoro 82M TTS, 3D character stages) entirely on local machine hardware (Apple Silicon Metal, NVIDIA CUDA, CPU).
-- **Zero Lock-In:** Project files (`.stage`) are stored locally as open, human-readable JSON.
-- **Audience-First Policy:** All core editing capabilities, timeline tracks, and voice synthesis features are 100% free to maximize creator adoption.
+* ⚡ **Zero Cloud Bills & Zero Subscription Paywalls:** 100% free forever.
+* 🔒 **Complete Data Privacy:** Your videos, recordings, and audio never leave your local hardware.
+* 🚀 **Offline AI Engines:** Uses local Apple Silicon (Metal) and local GPU/CPU compute for transcription and voice synthesis.
+* 📦 **Standard File Ownership:** Projects save as human-readable `.stage` files that you own forever.
 
 ---
 
-## 🚀 Product Features Showcased
+## 📥 Download MegaStage Desktop
 
-| Feature | Description | Engine |
+Download the latest installer directly from the [GitHub Releases](https://github.com/subrasaas/mega-stage/releases/latest) page:
+
+| Operating System | Download Link | Package Format |
 | :--- | :--- | :--- |
-| 🎙️ **Voice Cast Studio** | Multi-character conversational dialogue between Subra AI & Mira | Local Kokoro TTS (24 kHz) |
-| 💬 **Kinetic Subtitles** | Word-by-word active pop, rolling teleprompter, and auto-captions | Local Faster-Whisper |
-| 🎭 **3D Character Stages** | Low-poly 3D explainer sets with real-time camera angles & flat shading | Three.js + WebGL |
-| 🎞️ **Multi-Track Timeline** | Precision scrubbing, clip slicing, zoom, and audio waveforms | 60fps Zustand Clock |
-| ⚡ **Hardware Export** | Clean 1080p 60fps MP4/WebM video export directly to disk | Native Chromium / FFmpeg |
+| **macOS (Apple Silicon M1/M2/M3/M4)** | [Download `.dmg`](https://github.com/subrasaas/mega-stage/releases/download/v1.0.0/MegaStage-1.0.0-arm64.dmg) | `.dmg` installer & [`.zip`](https://github.com/subrasaas/mega-stage/releases/download/v1.0.0/MegaStage-1.0.0-arm64-mac.zip) |
+| **Linux (Ubuntu, Debian, Fedora, Arch)** | [Download `.AppImage`](https://github.com/subrasaas/mega-stage/releases/download/v1.0.0/MegaStage-1.0.0.AppImage) | `.AppImage` (Universal) & [`.deb`](https://github.com/subrasaas/mega-stage/releases/download/v1.0.0/mega-stage_1.0.0_amd64.deb) |
+| **Windows 10 / 11 (64-bit)** | [Download `.exe`](https://github.com/subrasaas/mega-stage/releases/download/v1.0.0/MegaStage-Setup-1.0.0.exe) | NSIS Installer `.exe` & `.zip` |
 
 ---
 
-## 🛠️ Web Architecture & Tech Stack
+## 🚀 Key Features
 
-The web portal is built as a **100% static Next.js export** deployed directly to **GitHub Pages** with custom domain SSL:
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                        MegaStage Video Studio                          │
+├──────────────────────────┬─────────────────────────────────────────────┤
+│ 🎙️ Voice Cast Studio     │ Neural conversational TTS (Subra & Mira)    │
+│ 💬 Kinetic Subtitles     │ Word-by-word active pop, Faster-Whisper STT │
+│ 🎭 3D Diorama Stage      │ Three.js virtual set with dynamic lighting  │
+│ 🎞️ Multi-Track Timeline  │ 60fps playhead, waveform inspection & zoom  │
+│ 📐 Aspect Ratio Toggle   │ 16:9 Landscape & 9:16 Vertical Shorts/Reels │
+│ ⚡ Local Hardware Export │ Crisp 1080p 60fps MP4/WebM render           │
+└──────────────────────────┴─────────────────────────────────────────────┘
+```
 
-- **Framework:** [Next.js 14](https://nextjs.org/) (App Router, Static HTML Export)
-- **Styling:** Custom CSS Design Tokens matching the MegaStage desktop dark slate palette
-- **Hosting:** 100% Free on **GitHub Pages**
-- **Domain:** Custom subdomain [`megastage.subraspaceai.com`](https://megastage.subraspaceai.com) via CNAME
-- **CI/CD:** Automated GitHub Actions build and deployment pipeline (`.github/workflows/deploy.yml`)
+### 1. 🎙️ Local Neural Voice Cast (Kokoro TTS 82M)
+Generate studio-quality voiceovers without paying ElevenLabs or cloud TTS providers. MegaStage comes with an embedded, low-latency neural speech engine producing ultra-natural 24 kHz dialogue between host characters with zero API keys required.
+
+### 2. 💬 Auto Subtitles & Word-by-Word Kinetic Captions
+Transcribe speech instantly with **Faster-Whisper** running on your local device. Features customizable subtitle styles including:
+* Word-by-word highlighted karaoke pop.
+* Teleprompter roller.
+* Classic lower-third subtitle bar.
+
+### 3. 🎭 Interactive 3D Stage Diorama Preview
+Preview your explainers on an interactive 3D virtual production set powered by **Three.js & WebGL**. Inspect dynamic stage spotlights, camera angles, flat shading, and animated character placements in real time.
+
+### 4. 🎞️ High-Precision Multi-Track Timeline
+* **60fps Clock:** Smooth scrubbing with zero stutter or ghosting.
+* **Audio Waveforms:** In-clip visual audio waveforms for precision split, trim, and sync.
+* **Aspect Ratio Switching:** Instantly adapt canvas between **16:9 Landscape** (YouTube, Web) and **9:16 Vertical** (TikTok, Instagram Reels, YouTube Shorts).
+* **Crop & Transform Gizmos:** Direct on-canvas bounding box controls for sizing, position, and z-index ordering.
 
 ---
 
-## 📂 Repository Structure
+## 🎨 Design Philosophy: Dark Neumorphism (Soft UI)
 
-```
-├── .github/
-│   └── workflows/
-│       └── deploy.yml            # Automated GitHub Pages CI/CD deployment
-├── public/
-│   ├── CNAME                     # Custom domain: megastage.subraspaceai.com
-│   └── config/
-│       └── features.json         # Static feature flag configuration for desktop clients
-├── src/
-│   ├── app/
-│   │   ├── globals.css           # Global typography and design system variables
-│   │   ├── layout.tsx            # Root layout with SEO and metadata
-│   │   └── page.tsx              # High-converting product landing page with OS detection
-├── package.json
-├── tsconfig.json
-└── next.config.js                # Static export configuration (output: 'export')
-```
+MegaStage is engineered with a soothing, distraction-free **Dark Neumorphic** user interface:
+* **Canvas:** Deep Obsidian background (`#0e121a`).
+* **Cards & Panels:** Elevated slate surfaces (`#151b28`) with soft dual-source light/dark drop shadows.
+* **Wells & Inputs:** Concave inset shadows for tactile feel and focus.
+* **Accents:** Electric Cyan (`#35d9e6`) highlights for active tracks, playhead, and waveform spikes.
 
 ---
 
-## 💻 Local Development
+## 🔒 Privacy & Local Safety Guarantee
 
-Run the web portal locally:
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/subrasaas/mega-stage.git
-cd mega-stage
-
-# 2. Install dependencies
-npm install
-
-# 3. Start local development server (port 3400)
-npm run dev
-
-# 4. Visit in browser
-# Open http://localhost:3400
-```
-
-### Build & Static Verification
-
-```bash
-# Generate the production static export into out/
-npm run build
-
-# Run TypeScript type safety checks
-npm run typecheck
-```
+* **No Telemetry:** We do not track your project names, media files, or script text.
+* **No Cloud Uploads:** AI inference (speech recognition, voice synthesis) executes strictly on local processors.
+* **Persistent Cache:** Neural model weights and user assets reside safely in your local home directory (`~/.cache/huggingface/` or application user data) and are never deleted or modified during software updates.
 
 ---
 
-## ⚙️ Remote Feature Configuration (`features.json`)
+## 🌐 Ecosystem & Links
 
-MegaStage desktop installations poll `https://megastage.subraspaceai.com/config/features.json` on launch to dynamically configure experimental features and announcements without requiring immediate software rebuilds.
-
-### Schema Contract
-
-```json
-{
-  "version": "1.0.0",
-  "updatedAt": "2026-11-15T00:00:00.000Z",
-  "tierPolicy": "all_free",
-  "features": {
-    "autoSubtitles": true,
-    "wordByWordCaptions": true,
-    "rollingCaptions": true,
-    "puppetStudio": false,
-    "video3dDiorama": true,
-    "offlineVoiceCast": true,
-    "topicBoardPlanning": true,
-    "experimentalTimeline": false
-  },
-  "announcements": {
-    "latestVersion": "1.0.0",
-    "releaseDate": "2026-11-15",
-    "downloadUrl": "https://github.com/subrasaas/mega-stage/releases/latest",
-    "notice": "MegaStage v1.0.0 is officially released! 100% Free & Local Desktop Studio."
-  }
-}
-```
-
-*Note: Feature flags are maintained directly via Git in `public/config/features.json`. Modifying and pushing to `main` automatically updates all desktop installations.*
-
----
-
-## 📦 Releases & Downloads
-
-Binaries are published on the **[GitHub Releases Page](https://github.com/subrasaas/mega-stage/releases)**:
-
-* **macOS Apple Silicon:** `.dmg` (Optimized for Apple M-series Metal)
-* **Windows 64-bit:** `.exe` installer
-* **Linux:** `.AppImage` / `.deb`
+MegaStage is proudly open-source and free:
+* **Official Website & Docs:** [megastage.subraspaceai.com](https://megastage.subraspaceai.com)
+* **Releases & Binaries:** [github.com/subrasaas/mega-stage/releases](https://github.com/subrasaas/mega-stage/releases)
+* **Issue Tracker & Feature Requests:** [github.com/subrasaas/mega-stage/issues](https://github.com/subrasaas/mega-stage/issues)
 
 ---
 
 ## 📄 License
 
-This web portal is open source and available under the [MIT License](LICENSE).
-MegaStage Desktop Studio © 2026 SubraSaaS Studio. All rights reserved.
+Distributed under the **MIT License**. Free for personal, commercial, and educational use.
